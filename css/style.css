@@ -1,0 +1,300 @@
+@import url(https://fonts.googleapis.com/css?family=Lora:regular,500,600,700,italic,500italic,600italic,700italic);
+@font-face {
+	font-family: "True Gothic Cyr";
+	src: url(../fonts/TrueGothicCyr.woff2) format("woff2"), url(../fonts/TrueGothicCyr.woff) format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "s'AWesome";
+	src: url(../fonts/sAWesome.woff2) format("woff2"), url(../fonts/sAWesome.woff) format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	line-height: 1;
+	color: #000;
+}
+
+/*overflow: scroll;*/
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.title__gluwny {
+	font-size: 55px;
+	color: blue;
+	font-family: "True Gothic Cyr";
+	font-weight: 600;
+	text-align: center;
+	padding: 20px 30px 30px 30px;
+	line-height: 50px;
+	text-shadow: 15px 15px 5px black;
+}
+.main {
+}
+.content {
+	margin: 0 0 5px 0;
+	background-color: lime;
+	border: solid #000;
+	border-radius: 20px;
+	box-shadow: 30px 10px 4px #4444dd;
+}
+.zara {
+	background-color: rosybrown;
+	font-family: "s'AWesome";
+	font-size: 18px;
+	line-height: 25px;
+	color: red;
+	box-shadow: 30px 20px 4px #4444dd;
+	margin: 0 0 40px 0;
+}
+.img {
+	max-width: 50%;
+}
+.zara-link {
+	color: yellow;
+	display: inline-block;
+	margin: 0 0 0 500px;
+	text-transform: uppercase;
+}
+.block-1 {
+	max-height: 300px;
+	max-width: 500px;
+	display: inline-block;
+	font-size: 20px;
+	text-transform: uppercase;
+	overflow: scroll;
+	margin: 40px 0 0 0;
+}
+.block-2 {
+	max-width: 200px;
+	display: inline;
+	background-color: lightpink;
+}
+.img-2 {
+	width: 400px;
+	height: 500px;
+	border-radius: 50%;
+	border: 5px solid #000;
+	overflow: visible;
+}
+.block-3 {
+	text-align: center;
+}
+.image-1 {
+	max-width: 550px;
+	display: inline-block;
+}
+.image-2 {
+	max-width: 550px;
+	display: inline-block;
+	overflow: hidden;
+}
+.zara__text {
+	color: white;
+}
+.hause {
+	color: teal;
+	text-align: center;
+}
+.stock {
+	color: seagreen;
+}
+header {
+	margin: 50px 50px 5px 50px;
+}
+.menu {
+	background-color: lightgreen;
+	display: block;
+	width: 100%;
+	height: 100px;
+	font-size: 25px;
+	font-weight: 600;
+	font-family: "s'AWesome";
+	padding: 5px;
+	border: solid 0.5;
+	border-radius: 25px;
+	box-shadow: 30px 10px 4px #4444dd;
+}
+li {
+}
+.menu__list {
+	text-align: center;
+	text-transform: uppercase;
+}
+.li-1 {
+	display: inline-block;
+	max-width: 200px;
+	color: red;
+	margin: 5px;
+	line-height: 28px;
+}
+.button {
+	background-color: teal;
+	color: black;
+	width: 100px;
+	height: 50px;
+	display: inline-block;
+	text-align: center;
+	padding: 15px;
+	text-transform: uppercase;
+	font-style: 30px;
+	font-weight: 700;
+	line-height: 25px;
+
+	margin: 0 0 15px 0;
+}
+.kartinki {
+	margin: 50px 0 50px 0;
+}
+.kartinka {
+	width: 50%;
+	float: left;
+}
+.kartinka-2 {
+	width: 50%;
+	float: left;
+	border: 10px dashed black;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 15px 15px 15px black;
+}
+.kartinka-4 {
+	width: 50%;
+	float: left;
+	border: 10px dotted black;
+	border-radius: 50%;
+	overflow: hidden;
+	max-height: 400px;
+	box-shadow: 10px 10px 10px black;
+}
+.kartinka-3 {
+	width: 50%;
+	float: left;
+	border: 10px dotted black;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 5px 5px 5px black;
+}
+.stock__autline {
+	outline: 10px solid #666;
+	line-height: 25px;
+	font-style: 25px;
+	font-weight: 700;
+	margin: 15px 0 15px 0;
+}
+.title {
+	font-size: 35px;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: "s'AWesome";
+	color: brown;
+	text-align: center;
+	text-shadow: 5px 5px 5px black;
+	margin: 25px 0 25px 0;
+	line-height: 20px;
+}
+.biord {
+	text-transform: capitalize;
+	text-decoration: underline;
+	text-shadow: 1px 1px 1px red;
+	font-size: 18px;
+	font-family: "s'AWesome";
+	line-height: 25px;
+}
+.berhka {
+	height: 300px;
+	float: right;
+	max-width: 50%;
+	font-size: 20px;
+	filter: drop-shadow(15px 15px 15px black);
+	color: cornflowerblue;
+	overflow: hidden;
+	line-height: 20px;
+	font-style: oblique;
+	letter-spacing: 15px;
+	text-decoration: underline;
+}
+.kartinka-5 {
+	float: left;
+	width: 25%;
+	border: 5px solid black;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 10px 10px 10px black;
+	margin: 40px 0 40px 0;
+}
+.kartinki-5 {
+}
+.kartinka-6 {
+	float: left;
+	width: 25%;
+	border: 5px solid black;
+	overflow: hidden;
+	box-shadow: 5px 5px 5px black;
+	border-radius: 50%;
+	opacity: 0;
+}
+.kartinka-7 {
+	float: left;
+	width: 25%;
+	border: 5px solid black;
+	overflow: hidden;
+	box-shadow: 5px 5px 5px black;
+	border-radius: 50%;
+	visibility: hidden;
+}
+.spiner {
+	font-style: oblique;
+	text-decoration: line-through;
+	text-indent: 1.5em;
+	word-spacing: 15px;
+	font-size: 18px;
+	color: cadetblue;
+}
+.footer {
+	text-transform: lowercase;
+	font-size: 25px;
+	font-family: "True Gothic Cyr";
+	text-align: right;
+	color: blue;
+	text-shadow: 5px 5px 5px brown;
+	font-weight: 700;
+	line-height: 16px;
+	letter-spacing: 15px;
+}
+.title-2 {
+}
